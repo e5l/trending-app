@@ -1,5 +1,9 @@
 .idea
 .gradle
+.project
+
+bin
+build
 
 *.iml
 

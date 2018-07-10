@@ -1,0 +1,30 @@
+subprojects {
+    buildscript {
+        repositories {
+            maven { url 'https://dl.bintray.com/kotlin/kotlin-dev' }
+            maven { url 'https://plugins.gradle.org/m2/' }
+            maven { url 'https://dl.bintray.com/jetbrains/kotlin-native-dependencies' }
+
+            mavenLocal()
+            google()
+            jcenter()
+        }
+        dependencies {
+            classpath "com.android.tools.build:gradle:$android_buildtools_version"
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+            classpath "org.jetbrains.kotlin:kotlin-native-gradle-plugin:$kotlin_native_version"
+        }
+    }
+    repositories {
+        mavenLocal()
+        google()
+        maven { url 'https://dl.bintray.com/e5l/ktor' }
+        maven { url 'https://dl.bintray.com/e5l/kotlinx-io-test' }
+        maven { url 'https://dl.bintray.com/qwwdfsad/kotlinx' }
+
+        maven { url 'https://kotlin.bintray.com/kotlinx' }
+
+        google()
+        jcenter()
+    }
+}
