@@ -1,0 +1,16 @@
+apply plugin: 'kotlin-platform-native'
+
+dependencies {
+    expectedBy project(':trending-common')
+    implementation "io.ktor:ktor-client-ios:$ktor_version"
+}
+
+sourceSets {
+    main {
+        component {
+            target 'ios_x64', 'ios_arm64'
+            outputKinds = [FRAMEWORK]
+            extraOpts '--disable', 'devirtualization'
+        }
+    }
+}

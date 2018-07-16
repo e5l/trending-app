@@ -7,60 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C71146220F3AAA40053713D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71146120F3AAA40053713D /* AppDelegate.swift */; };
-		2C71146420F3AAA40053713D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71146320F3AAA40053713D /* ViewController.swift */; };
-		2C71146720F3AAA40053713D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C71146520F3AAA40053713D /* Main.storyboard */; };
-		2C71146920F3AAA50053713D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C71146820F3AAA50053713D /* Assets.xcassets */; };
-		2C71146C20F3AAA50053713D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C71146A20F3AAA50053713D /* LaunchScreen.storyboard */; };
 		2C71147720F3AAA60053713D /* trending_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71147620F3AAA60053713D /* trending_iosTests.swift */; };
 		2C71148220F3AAA60053713D /* trending_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71148120F3AAA60053713D /* trending_iosUITests.swift */; };
+		2CA8543120FC8C3D0061AC49 /* trending_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA8543020FC8C3D0061AC49 /* trending_ios.framework */; };
+		2CA8543220FC8C3D0061AC49 /* trending_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA8543020FC8C3D0061AC49 /* trending_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2CC5859720F4C2B000B23A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71146320F3AAA40053713D /* ViewController.swift */; };
 		2CC5859820F4C2B000B23A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71146120F3AAA40053713D /* AppDelegate.swift */; };
 		2CC5859B20F4C2B000B23A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C71146A20F3AAA50053713D /* LaunchScreen.storyboard */; };
 		2CC5859C20F4C2B000B23A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C71146820F3AAA50053713D /* Assets.xcassets */; };
 		2CC5859D20F4C2B000B23A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C71146520F3AAA40053713D /* Main.storyboard */; };
-		2CC585A520F4C2DA00B23A43 /* trending.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC585A420F4C2DA00B23A43 /* trending.framework */; };
-		2CC585A620F4C2DA00B23A43 /* trending.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC585A420F4C2DA00B23A43 /* trending.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2CC585A820F4C2E700B23A43 /* trending.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC585A720F4C2E700B23A43 /* trending.framework */; };
-		2CC585A920F4C2E700B23A43 /* trending.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC585A720F4C2E700B23A43 /* trending.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2C71147320F3AAA60053713D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C71145620F3AAA40053713D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C71145D20F3AAA40053713D;
-			remoteInfo = "trending-ios";
-		};
-		2C71147E20F3AAA60053713D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C71145620F3AAA40053713D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C71145D20F3AAA40053713D;
-			remoteInfo = "trending-ios";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		2C71149320F3AD620053713D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2CC585A920F4C2E700B23A43 /* trending.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2CC5859E20F4C2B000B23A43 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2CC585A620F4C2DA00B23A43 /* trending.framework in Embed Frameworks */,
+				2CA8543220FC8C3D0061AC49 /* trending_ios.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +33,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C71145E20F3AAA40053713D /* trending-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trending-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C71146120F3AAA40053713D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C71146320F3AAA40053713D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C71146620F3AAA40053713D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,21 +45,11 @@
 		2C71147D20F3AAA60053713D /* trending-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trending-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C71148120F3AAA60053713D /* trending_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trending_iosUITests.swift; sourceTree = "<group>"; };
 		2C71148320F3AAA60053713D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA8543020FC8C3D0061AC49 /* trending_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = trending_ios.framework; path = build/lib/main/debug/ios_x64/trending_ios.framework; sourceTree = "<group>"; };
 		2CC585A220F4C2B000B23A43 /* trending-ios-sim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trending-ios-sim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CC585A320F4C2B000B23A43 /* trending-ios copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "trending-ios copy-Info.plist"; path = "/Users/jetbrains/Documents/trending/trending-ios/trending-ios copy-Info.plist"; sourceTree = "<absolute>"; };
-		2CC585A420F4C2DA00B23A43 /* trending.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = trending.framework; path = build/konan/bin/ios_x64/trending.framework; sourceTree = "<group>"; };
-		2CC585A720F4C2E700B23A43 /* trending.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = trending.framework; path = build/konan/bin/ios_arm64/trending.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C71145B20F3AAA40053713D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CC585A820F4C2E700B23A43 /* trending.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C71146F20F3AAA60053713D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC585A520F4C2DA00B23A43 /* trending.framework in Frameworks */,
+				2CA8543120FC8C3D0061AC49 /* trending_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,20 +78,17 @@
 		2C71145520F3AAA40053713D = {
 			isa = PBXGroup;
 			children = (
-				2CC585A420F4C2DA00B23A43 /* trending.framework */,
-				2CC585A720F4C2E700B23A43 /* trending.framework */,
+				2CA8543020FC8C3D0061AC49 /* trending_ios.framework */,
 				2C71146020F3AAA40053713D /* trending-ios */,
 				2C71147520F3AAA60053713D /* trending-iosTests */,
 				2C71148020F3AAA60053713D /* trending-iosUITests */,
 				2C71145F20F3AAA40053713D /* Products */,
-				2CC585A320F4C2B000B23A43 /* trending-ios copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		2C71145F20F3AAA40053713D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C71145E20F3AAA40053713D /* trending-ios.app */,
 				2C71147220F3AAA60053713D /* trending-iosTests.xctest */,
 				2C71147D20F3AAA60053713D /* trending-iosUITests.xctest */,
 				2CC585A220F4C2B000B23A43 /* trending-ios-sim.app */,
@@ -179,24 +130,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C71145D20F3AAA40053713D /* trending-ios */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C71148620F3AAA60053713D /* Build configuration list for PBXNativeTarget "trending-ios" */;
-			buildPhases = (
-				2C71145A20F3AAA40053713D /* Sources */,
-				2C71145B20F3AAA40053713D /* Frameworks */,
-				2C71145C20F3AAA40053713D /* Resources */,
-				2C71149320F3AD620053713D /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "trending-ios";
-			productName = "trending-ios";
-			productReference = 2C71145E20F3AAA40053713D /* trending-ios.app */;
-			productType = "com.apple.product-type.application";
-		};
 		2C71147120F3AAA60053713D /* trending-iosTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C71148920F3AAA60053713D /* Build configuration list for PBXNativeTarget "trending-iosTests" */;
@@ -208,7 +141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2C71147420F3AAA60053713D /* PBXTargetDependency */,
 			);
 			name = "trending-iosTests";
 			productName = "trending-iosTests";
@@ -226,7 +158,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2C71147F20F3AAA60053713D /* PBXTargetDependency */,
 			);
 			name = "trending-iosUITests";
 			productName = "trending-iosUITests";
@@ -264,9 +195,6 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = ktorio;
 				TargetAttributes = {
-					2C71145D20F3AAA40053713D = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
 					2C71147120F3AAA60053713D = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 2C71145D20F3AAA40053713D;
@@ -290,7 +218,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C71145D20F3AAA40053713D /* trending-ios */,
 				2C71147120F3AAA60053713D /* trending-iosTests */,
 				2C71147C20F3AAA60053713D /* trending-iosUITests */,
 				2CC5859520F4C2B000B23A43 /* trending-ios-sim */,
@@ -299,16 +226,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C71145C20F3AAA40053713D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C71146C20F3AAA50053713D /* LaunchScreen.storyboard in Resources */,
-				2C71146920F3AAA50053713D /* Assets.xcassets in Resources */,
-				2C71146720F3AAA40053713D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C71147020F3AAA60053713D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,15 +253,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C71145A20F3AAA40053713D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C71146420F3AAA40053713D /* ViewController.swift in Sources */,
-				2C71146220F3AAA40053713D /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C71146E20F3AAA60053713D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,19 +279,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2C71147420F3AAA60053713D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C71145D20F3AAA40053713D /* trending-ios */;
-			targetProxy = 2C71147320F3AAA60053713D /* PBXContainerItemProxy */;
-		};
-		2C71147F20F3AAA60053713D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C71145D20F3AAA40053713D /* trending-ios */;
-			targetProxy = 2C71147E20F3AAA60053713D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2C71146520F3AAA40053713D /* Main.storyboard */ = {
@@ -519,50 +414,6 @@
 			};
 			name = Release;
 		};
-		2C71148720F3AAA60053713D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/konan/bin/ios_x64",
-					"$(PROJECT_DIR)/build/konan/bin/ios_arm64",
-				);
-				INFOPLIST_FILE = "trending-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.ktorio.ktor.samples.trending-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2C71148820F3AAA60053713D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/konan/bin/ios_x64",
-					"$(PROJECT_DIR)/build/konan/bin/ios_arm64",
-				);
-				INFOPLIST_FILE = "trending-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.ktorio.ktor.samples.trending-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		2C71148A20F3AAA60053713D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -650,6 +501,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/konan/bin/ios_x64",
 					"$(PROJECT_DIR)/build/konan/bin/ios_arm64",
+					"$(PROJECT_DIR)/build/lib/main/debug/ios_x64",
 				);
 				INFOPLIST_FILE = "trending-ios copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -672,6 +524,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/konan/bin/ios_x64",
 					"$(PROJECT_DIR)/build/konan/bin/ios_arm64",
+					"$(PROJECT_DIR)/build/lib/main/debug/ios_x64",
 				);
 				INFOPLIST_FILE = "trending-ios copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -693,15 +546,6 @@
 			buildConfigurations = (
 				2C71148420F3AAA60053713D /* Debug */,
 				2C71148520F3AAA60053713D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2C71148620F3AAA60053713D /* Build configuration list for PBXNativeTarget "trending-ios" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C71148720F3AAA60053713D /* Debug */,
-				2C71148820F3AAA60053713D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

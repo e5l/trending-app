@@ -2,6 +2,6 @@ rootProject.name = 'trending'
 enableFeaturePreview('GRADLE_METADATA')
 
 include 'trending-common'
-include 'trending-ios'
+include 'trending_ios'
 include 'trending-android'
 

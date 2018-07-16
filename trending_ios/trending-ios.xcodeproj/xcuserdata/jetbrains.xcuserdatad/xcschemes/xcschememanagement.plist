@@ -14,11 +14,6 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>trending-ios.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 		<key>trending.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +22,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2C71145D20F3AAA40053713D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2C71147120F3AAA60053713D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2C71147C20F3AAA60053713D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2CC5859520F4C2B000B23A43</key>
 		<dict>
 			<key>primary</key>

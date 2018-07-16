@@ -8,12 +8,13 @@
 
 import UIKit
 
-import trending
 
-let KUnit = TrendingStdlibUnit()
+import trending_ios
+
+let KUnit = Trending_iosStdlibUnit()
 
 class ViewController: UIViewController {
-    let api = TrendingTrending()
+    let api = Trending_iosTrending()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,13 +25,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickAction(_ sender: Any) {
-        api.top(block: { (result: String) -> TrendingStdlibUnit in
-            print(result)
+        api.top(block: { (response) -> Trending_iosStdlibUnit in
+            print(response)
             return KUnit
-        }, catch: { (cause) -> TrendingStdlibUnit in
+        }) { (cause) -> Trending_iosStdlibUnit in
             print(cause)
-            cause.printStackTrace()
             return KUnit
-        })
+        }
     }
 }
